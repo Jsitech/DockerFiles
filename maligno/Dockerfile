@@ -20,8 +20,8 @@ RUN apt-get -y install openssh-server
 RUN apt-get -y install metasploit-framework
 
 #Downloads And install Maligno Server
-RUN wget --no-check-certificate http://www.encripto.no/tools/maligno-2.4.tar.gz
-RUN tar xzvf maligno-2.4.tar.gz; cd maligno-2.4/; ./install.sh
+RUN wget --no-check-certificate http://www.encripto.no/tools/maligno-2.5.tar.gz
+RUN tar xzvf maligno-2.5.tar.gz; cd maligno-2.5/; ./install.sh
 
 #Adds config XML with correct metasploit Path
 ADD ./server_config.xml /maligno-2.4/server_config.xml
