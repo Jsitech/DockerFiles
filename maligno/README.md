@@ -13,12 +13,12 @@ Maligno https://www.encripto.no/
 Quick Start
 =========================
 
-docker run -i -t -p 443:443 2022:22 jsitech/kali-maligno:latest /bin/bash
+docker run -i -t -p 443:443 2022:22 jsitech/maligno /bin/bash
 
 Share Directory for client file access
 =========================
 
-docker run -i -t -p 443:443 -p 2022:22 -v /root/clients:/maligno-2.4/clients jsitech/kali-maligno:latest /bin/bash
+docker run -i -t -p 443:443 -p 2022:22 -v /root/clients:/maligno-2.4/clients jsitech/maligno /bin/bash
 
 Maligno Configuration
 =========================
