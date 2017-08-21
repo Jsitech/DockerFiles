@@ -10,3 +10,4 @@ The ***GOSINT*** framework is a project used for collecting, processing, and exp
 docker run -i -t -p 443:443 jsitech/gosint
 ```
 
+More info on GOSINT Project, Head over to https://github.com/ciscocsirt/gosint
