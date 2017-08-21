@@ -30,6 +30,7 @@ RUN git clone https://github.com/ciscocsirt/GOSINT
 WORKDIR /go/src/GOSINT/
 
 COPY gosint.sh gosint.sh
+RUN chmod 655 gosint.sh
 
 RUN go build -o gosint
 RUN chmod +x gosint
