@@ -4,7 +4,7 @@
 
 FROM kalilinux/kali-linux-docker
 
-MAINTAINER Jason Soto "jason_soto@jsitech.com"
+MAINTAINER Jason Soto "www.jasonsoto.com"
 
 ENV DEBIAN_FRONTEND noninteractive
 
