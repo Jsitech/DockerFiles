@@ -10,4 +10,12 @@ The ***GOSINT*** framework is a project used for collecting, processing, and exp
 docker run -i -t -p 443:443 jsitech/gosint
 ```
 
+***Set Volume for Persistent Data***
+=========================
+```
+docker run -i -t -p 443:443 -v /your/persistent/data/path:/var/lib/mongodb jsitech/gosint
+```
+
+
+
 More info on GOSINT Project, Head over to https://github.com/ciscocsirt/gosint
