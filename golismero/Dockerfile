@@ -10,10 +10,10 @@ MAINTAINER Jason Soto "www.jasonsoto.com"
 ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get update; apt-get -y install git \
-perl \
-nmap \
-sslscan \
-apache2
+    perl \
+    nmap \
+    sslscan \
+    apache2
 
 # Clone Project Repo
 
